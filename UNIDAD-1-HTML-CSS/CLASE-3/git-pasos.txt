@@ -1,0 +1,10 @@
+git init ---> inicia un retpositorio
+ U ---> quiere decir untracked o sea sin seguimineto
+git add . ---> hace seguimiento a los archivos de mi repositorio, es decir los prepara para que sean guardados
+git add + archivo seleccionado ---> hace el seguimiento al archivo seleccionado
+.gitignore ---> en ella se especifica los nombres de los archivos que queremos ignorar para que no se suban al repositorio
+git commit _m "un comentario tipo version" --->  es la creaacion de una version de mi proyecto y la sube
+git remote add origin ---> coloca una direccion url de repositorio en la nube donde vamos a subir nuetros proyecto y sus versiones
+git remote -v ---> visualiza la url de mi repositorio
+git branch -M main ---> cambia a la rama "main"
+git push -u origin main ---> envio todo mi proyecto a mi repositorio en git hub

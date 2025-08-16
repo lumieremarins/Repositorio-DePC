@@ -1,0 +1,35 @@
+.caja{
+    /* se define el ancho de la content-box */
+    width: 200px;
+    /* se define el alto de la content-box */
+    height: 200px;
+    background-color: red;
+    border: 2px blue solid;
+    border-right: 3px yellow dotted;
+    border-radius: 10px;
+    padding-left: 5px;
+  
+    /* justify hacerlo siempre con parrafos */
+    /* text-align: justify; */
+    /* overflow-x: auto;       sirve para scroll */
+
+}
+.parrafo{
+text-align: justify;
+/* width: 300px; */
+/* height: 300px; */
+
+}
+
+span {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+}
+
+.caja-2{
+    width: 200px;
+    height: 200px;
+    display: block;
+}

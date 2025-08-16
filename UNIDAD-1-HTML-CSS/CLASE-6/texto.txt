@@ -1,0 +1,49 @@
+.parrafo{
+text-align: justify;
+width: 300px;
+height: 300px;
+}
+
+Establecer alto y ancho solo es valido para etiquetas "block" o "inline-block"
+Las etiquetas tiene un "display (propiedad)" que puede ser 3 valores (inline, block e inline-block)
+
+div por defecto es una etiqueta "block"
+span por defecto es una etiqueta "inline"
+
+Inline:
+ - el ancho y el alto siempre es igual al contenido
+ - no se puede definir alto ni ancho
+ - se colocan uno al lado de otra mientras se pueda
+ por ej: a
+         span
+         label
+         b
+
+Block:
+ - se les puede definir ancho y alto
+ - se colocan una bajo de otra
+ por ej: h1....h6
+         p
+         div
+         header
+         main
+         section
+         footer
+         articicle
+         form
+         aside
+         nav
+
+
+Inline-block:
+ - se les puede definir ancho y alto
+ - se coloca uno al lado del otro
+ por ej: <button>
+         <input/>
+         <textarea>
+         <img/>
+         <video></video>
+         <iframe></iframe>
+
+
+
